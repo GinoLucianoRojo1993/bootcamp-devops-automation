@@ -1,0 +1,24 @@
+{
+    "environments":{
+        "master":{
+            "app_name2":"Api_Backend",
+            "TARGET_AWS_ACCOUNT": "1234",
+            "ENV": "production",
+            "EB_environmentid" : "e-up35ir2e3z",
+            "EB_environmentname" : "apibackend-env",
+            "EB_applicationname" :"APIBackend",
+            "S3bucketname" : "api-back-master",
+            "S3key" : "prod"
+        },
+        "develop":{
+            "app_name2":"Api_Backend-dev",
+            "TARGET_AWS_ACCOUNT": "12345",
+            "ENV": "develop",
+            "EB_environmentid" : "e-up35ir2eeeez",
+            "EB_environmentname" : "apibackend-dev-env",
+            "EB_applicationname" :"APIBackend-dev",
+            "S3bucketname" : "api-back-develop",
+            "S3key" : "develop"
+        }
+    }
+}

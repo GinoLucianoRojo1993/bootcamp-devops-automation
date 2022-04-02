@@ -1,0 +1,22 @@
+{
+  "name": "@devops/automation",
+  "version": "1.0.0",
+  "description": "Automation",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "bump": "npm version patch",
+    "test": "echo \"MOCK: running tests \" && exit 0"
+  },
+  "author": "Rossana suarez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@roxsross/automation.git"
+  }
+}
