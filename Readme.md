@@ -9,7 +9,7 @@ La empresa "ZeroTecnology" tiene la necesidad de comenzar a agilizar sus proceso
 # Arquitectura
 
 - Esquema de branching
-![branching](https://raw.githubusercontent.com/roxsross/clase2-automation/master/arquitectura/Diagrama despliegue-branching.png)
+![branching](https://raw.githubusercontent.com/roxsross/clase2-automation/master/arquitectura/Diagrama-despliegue-branching.png)
  
 - Esquema de despliegue
 ![Despliegue](https://raw.githubusercontent.com/roxsross/clase2-automation/master/arquitectura/Diagrama-despliegue-propuesta.jpg)
