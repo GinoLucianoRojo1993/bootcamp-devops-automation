@@ -1,7 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var app = express();
-var pjson = require('./package.json');
+var pjson = require('../package.json');
 
 
 //setup logging
@@ -29,7 +29,7 @@ app.get('/getenv/*', function (req, res) {
 });
 
 app.get('/*', function (req, res) {
-  res.send('Hello AWS Girls Colombia! Version to'+req.url+'<hr>package json:'+pjson.version);
+  res.send('Hello! Version to'+req.url+'<hr>package json:'+pjson.version);
 });
 
 app.listen(PORT, HOST)

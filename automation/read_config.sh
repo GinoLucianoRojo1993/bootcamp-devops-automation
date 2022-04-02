@@ -14,3 +14,6 @@ echo "Read CONFIG: $BRANCH_NAME FROM $ENVIRONMENT_FILE"
 
 #print
 jq -r ".environments.\"$BRANCH_NAME\"" $ENVIRONMENT_FILE
+
+#EXPORT()
+$(jq -r ".environments.\"$BRANCH_NAME\"" $ENVIRONMENT_FILE | jq -r 'keys[] as $k| "export \($k)=\(.[$k])"')
